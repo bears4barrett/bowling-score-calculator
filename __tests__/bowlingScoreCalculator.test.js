@@ -1,4 +1,4 @@
-const bowlingScoreCalculator = require('../bowlingScoreCalculator.js');
+const { bowlingScoreCalculator } = require('../bowlingScoreCalculator.js');
 
 describe('bowlingScoreCalculator', () => {
   it('should calculate a perfect game of strikes', () => {
